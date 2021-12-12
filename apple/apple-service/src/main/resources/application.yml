@@ -1,5 +1,11 @@
 server:
   port: 8080
 spring:
-  profiles:
-    active: dev
+  application:
+    name: apple-service
+rocketmq:
+  name-server: 112.124.109.237:9876
+  producer:
+    group: producer-group-1
+  consumer:
+    group: consumer-group-1

@@ -7,3 +7,9 @@ say:
 ribbon:
   eureka:
     enabled: false
+rocketmq:
+  name-server: 112.124.109.237:9876
+  producer:
+    group: producer-group-1
+  consumer:
+    group: consumer-group-1
